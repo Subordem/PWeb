@@ -1,0 +1,82 @@
+* {
+    font-family: 'Bowlby One SC';
+    margin: 0;
+    padding: 0;
+    }
+body{
+    background-color: #0088e1;
+}
+
+#quadrado{
+    background-color: white;
+    padding: 50px;
+    margin: 2.5% 19%;
+    
+}
+
+#globo5g{
+    position: absolute;
+    left: 50%;
+    
+    transform: translate(-50%,-63%);
+}
+
+
+#introducao{
+    margin-top: 4.6%;
+    text-align: center;
+    
+}
+p{
+    margin: 3% 15%;
+    text-align: center;
+}
+#search{
+    position: absolute;
+    left: 50%;
+    
+    transform: translate(-50%,-0%);
+}
+
+#funcionamento{
+    margin-top: 13%;
+    text-align: center;
+}
+
+#velocimetro{
+    position: absolute;
+    left: 50%;
+    
+    transform: translate(-50%,30%);
+}
+#velocidade{
+    margin-top: 15%;
+    text-align: center;
+}
+
+#chip{
+    position: absolute;
+    left: 48%;
+}
+#motivos{
+    margin-top: 11%;
+    text-align: center;
+}
+
+#love{
+    position: absolute;
+    left: 48%;
+}
+
+#conclusão{
+    
+
+    margin-top: 11%;
+    margin-left: 39.6%;
+
+}
+
+#assinatura{
+    margin-left: 42.7%;
+    margin-top: 3%;
+}
