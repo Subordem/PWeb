@@ -1,0 +1,245 @@
+  :root{
+      --branco:#ffffff;
+      --amarelo:#fff54f;
+      --laranja:#ffe107;
+  }
+  @font-face {
+      font-family: ComicSans;
+      src: url(./comic.ttf);
+  }
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    background-image: url(./download.png);
+    align-items: center;
+    justify-content: center;
+    font-family: ComicSans,cursive;
+    text-align: center;
+}
+
+
+#Walter{
+    color: var(--branco);
+    font-size: 7rem;
+    padding: 2rem 1rem 0rem 0rem;
+    font-family: 'Times New Roman', Times, serif;
+
+    
+}
+#titulos{
+    color: var(--amarelo);
+    font-size: 2.5rem;
+    font-weight: lighter;
+    
+}
+.ImageBox{
+    display: flex;
+    justify-content: center;
+    padding: 1.5rem;
+    
+}
+.ImageBox img{
+    margin: 1.4rem;
+    height: 100%;
+}
+#text1{
+    color: var(--amarelo);
+    font-size: 1.563rem;
+    font-weight: bold;
+    margin: 1rem 20% 0rem;
+    text-align: left;
+}
+
+#p2{
+    padding: 1.5rem 0rem 0rem;
+    font-size: 1.313rem;
+    
+
+}
+#imgb2{
+    
+    display: flex;
+ justify-content: center;
+ align-items: flex-end;
+    
+    margin: 0;
+}
+#imgb2 img{
+    padding: 0rem 9rem;
+}
+
+#text2{
+    color: var(--branco);
+    font-size: 1.313rem;
+    padding: 0rem 0rem 0rem;
+    margin: 1rem 20% 0rem;
+    text-align: left;
+    font-weight: bold;
+   
+}
+#t2p2{
+    padding: 2rem 0rem 0rem 0rem;
+}
+#t2p3,#t2p4{
+    padding: 2rem 0rem 0rem 0rem;
+}
+
+#wonderful{
+    color: var(--amarelo);
+    font-size: 2.625rem;
+    margin: 0rem 0rem;
+}
+
+#largetext{
+    display: flex;
+    justify-content: center;
+    align-content:center;
+    margin: 1.3rem 20%;
+
+}
+
+#largetext img{
+    height: 100%;
+
+}
+
+.wonderful2{
+    color: var(--amarelo);
+    font-size: 2.625rem;
+    justify-content: center;
+    align-content:center;
+    margin: 4rem 20%;
+}
+.laranja{
+    color: var(--laranja);
+}
+
+
+#banner img{
+    width: 60%;
+    
+}
+
+#botao button{
+    margin: 2rem;
+background-image: url(./donate_button.png);
+height: 10rem;
+width: 20rem;
+}
+
+#quadrado{
+    background-color: black;
+
+    height: 12rem;
+    width: 55rem;
+    margin: 1rem 0rem 5rem 0rem;
+    color: var(--branco);
+    font-weight: bold;
+    font-size: 1.5rem;
+    
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#quantia{
+    padding: 1rem  0rem 0.5rem;
+}
+#visitantes{
+    padding: 0rem 0rem 1rem;
+    color: yellow;
+}
+
+
+
+@media (max-width:600px) {
+    p{
+        margin: 0rem 45rem;
+    }
+    .ImageBox{flex-direction: column;
+        
+    }
+    .ImageBox img{
+        
+       
+        height: 15rem;
+        margin: 1rem 80rem;
+    }
+    #walter1{
+        
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        
+    }
+    #walter1 img{
+        width: 21rem;
+    }
+    #Walter{
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        margin: 0rem 80rem;
+    }
+    #titulos{
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        margin: 0rem 80rem;
+    }
+    #imgb2{
+        flex-direction: column;
+        height: 15rem;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        margin: 10rem;
+    }
+    #largetext {
+        display: none;
+    }
+
+   
+    
+    .wonderful2{
+        display: none;
+        font-size: 1rem;
+        
+        
+    }
+    #banner img{
+        width: 23rem;
+    }
+    #quadrado{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      flex-direction: column;
+        height: 20rem;
+        width: 30rem;
+        
+        
+    }
+    #quantia{
+        
+        margin: 0 1rem;
+        
+    }
+
+    #visitantes {
+    }
+
+    footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      
+        padding: 3rem;
+    }
+   
+}
