@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <title>Média</title>
+
+</head>
+<style>
+    #group .form-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.chata{
+    width: 100%!important;
+
+}
+
+</style>
+<body>
+    <header class="text-center bg-primary pt-3 pb-1">
+        <h2 class="text-light">Calcular média</h2>
+     </header>
+    
+
+     <div class="container" id="container">
+        <form class="border my-4">
+                <div class="form-group my-4">
+                    <label for="nome" class="mb-1"><strong><b>Nome do aluno</b></strong></label>
+                    <div class="form-floating mb-3">
+                        <input type="text" class="form-control" id="nome" placeholder="Digite o nome do aluno...">
+                        <label for="nome">Digite o nome do aluno...</label>
+                      </div>
+
+
+                      <div id="group">
+                        <div class="form-group">
+                        <div class="form-floating mb-3 col-lg-1">
+                            <input type="number" class="form-control" id="nota1" placeholder="nota1">
+                            <label for="nota1">Nota 1</label>
+                          </div>
+
+                          <div class="form-floating mb-3 col-lg-1 mx-1">
+                            <input type="number" class="form-control" id="nota2" placeholder="nota2">
+                            <label for="nota2">Nota 2</label>
+                          </div>
+
+
+                          <div class="form-floating mb-3 col-lg-1">
+                            <input type="number" class="form-control" id="nota3" placeholder="nota3">
+                            <label for="nota2">Nota 3</label>
+                          </div>
+                         
+                        </div>
+
+                      </div>
+
+
+                </div>
+                <div class="text-center chata">
+                    <button id="calcular" class="btn btn-primary chata">Calcular</button>
+                </div>
+                
+
+        </form>
+
+
+     </div>
+
+
+</body>
+<script src="./media.js"></script>
+</html>
