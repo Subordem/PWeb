@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <title>Pesquisa</title>
+</head>
+<style>
+  @media(max-width:600px){ 
+  .TelephoneGrandao{
+    display: flex!important;
+    flex-direction: column!important;
+    align-items: center;
+    justify-content: center;
+  }
+  .Telephone{
+   
+    align-items: center;
+    justify-content: center;
+  }
+}
+</style>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+         <h2 class="text-light">Pesquisa de satisfação</h2>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+      
+          <div class="collapse navbar-collapse" id="navbarColor01">
+            <ul class="navbar-nav me-auto">
+             
+            
+          </div>
+        </div>
+      </nav>
+
+      <div class="container">
+        <div class="border  mt-3  ">
+            <div class="row">
+            <div class="form-group col m-5">
+            
+                <label class="col-form-label " for="idade"><h4>Idade</h4></label>
+                <input id="idade"  type="number" class="form-control" placeholder="Digite sua idade" >
+              </div>
+              <div class="form-group col m-5">
+                <h4>
+                    Sexo
+                </h4>
+                <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+                  <input class="form-check-input" type="radio" name="sexo" id="feminino" value="Feminino" checked>
+                        <label class=" form-check-label" for="radioFem">
+                          Feminino
+                        </label>
+                  <input class="form-check-input" type="radio" name="sexo" id="masculino" value="Masculino">
+                  <label class="form-check-label" for="radioMasc">
+                    Masculino
+                  </label>
+                </div>
+              </div>
+
+              </div>
+
+              <div class="row m5">
+                <h3 class="ms-5">O que achou do filme?</h3>
+
+                <div class="btn-group TelephoneGrandao d-flex justify-content-center" role="group" aria-label="Basic radio toggle button group">
+                  <div class="Telephone">
+                    <input type="radio" class="btn-check" name="btnradio" id="otimo" autocomplete="off" checked="">
+                    <label class="btn btn-outline-primary m-4" for="otimo">Ótimo</label>
+                    <input type="radio" class="btn-check" name="btnradio" id="bom" autocomplete="off" >
+                    <label class="btn btn-outline-primary m-4" for="bom">Bom</label>
+                  </div>
+                    <div class="Telephone">
+                    <input type="radio" class="btn-check" name="btnradio" id="regular" autocomplete="off" >
+                    <label class="btn btn-outline-primary m-4 me-2" for="regular">Regular</label>
+                    <input type="radio" class="btn-check" name="btnradio" id="Ruim" autocomplete="off" >
+                    <label class="btn btn-outline-primary m-4" for="Ruim">Ruim</label>
+                  </div>
+                  </div>
+              </div>
+              
+
+              <div class="d-grid gap-2 mt-5 mb-4">
+                <button id="enviar" class="btn btn-lg btn-primary" type="button">Enviar</button>
+                
+              
+
+        </div>
+
+        
+
+    </div>
+
+    <div class="d-flex  justify-content-center mt-5">
+      <a href="./estatisticas.html"><button type="button" class=" btn btn-primary" >Estatísticas</button></a>
+      
+    </div>
+
+
+
+      </div>
+      
+
+
+
+
+</body>
+<script src="./index.js"></script>
+</html>
