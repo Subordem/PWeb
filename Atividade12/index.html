@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <link rel="stylesheet" href="./index.css">
+    <title>Windows</title>
+</head>
+<style>
+    .container1{
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        
+    }
+
+    @media(min-width:600px){
+        .botao2{
+            margin:0 4rem;
+        }
+    }
+
+
+
+</style>
+<body>
+    <div class="container1  bg-dark">
+
+        <div id="ibagens">
+            <img src="./Imagem1.png" alt="">
+        </div>
+        
+        <div id="botoes">
+            <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+                <defs>
+                    <filter id="gooey">
+                        
+                        <feGaussianBlur in="SourceGraphic" stdDeviation="5" result="blur" />
+                        <feColorMatrix in="blur" type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="highContrastGraphic" />
+                        <feComposite in="SourceGraphic" in2="highContrastGraphic" operator="atop" />
+                    </filter>
+                </defs>
+            </svg>
+        
+            <button id="gooey-button" class="botao1">
+                -------- 1 --------
+                <span class="bubbles">
+                    <span class="bubble"></span>
+                    <span class="bubble"></span>
+                    <span class="bubble"></span>
+                    <span class="bubble"></span>
+                    <span class="bubble"></span>
+                    <span class="bubble"></span>
+                    <span class="bubble"></span>
+                    <span class="bubble"></span>
+                    <span class="bubble"></span>
+                    <span class="bubble"></span>
+                </span>
+            </button>
+
+
+            <!--------------------------------------------->
+            <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+                <defs>
+                    <filter id="gooey">
+                        
+                        <feGaussianBlur in="SourceGraphic" stdDeviation="5" result="blur" />
+                        <feColorMatrix in="blur" type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="highContrastGraphic" />
+                        <feComposite in="SourceGraphic" in2="highContrastGraphic" operator="atop" />
+                    </filter>
+                </defs>
+            </svg>
+        
+            <button id="gooey-button" class="botao2" >
+                -------- 2 --------
+                <span class="bubbles">
+                    <span class="bubble"></span>
+                    <span class="bubble"></span>
+                    <span class="bubble"></span>
+                    <span class="bubble"></span>
+                    <span class="bubble"></span>
+                    <span class="bubble"></span>
+                    <span class="bubble"></span>
+                    <span class="bubble"></span>
+                    <span class="bubble"></span>
+                    <span class="bubble"></span>
+                </span>
+            </button>
+
+            <!------------------------------------------------->
+            <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+                <defs>
+                    <filter id="gooey">
+                        
+                        <feGaussianBlur in="SourceGraphic" stdDeviation="5" result="blur" />
+                        <feColorMatrix in="blur" type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="highContrastGraphic" />
+                        <feComposite in="SourceGraphic" in2="highContrastGraphic" operator="atop" />
+                    </filter>
+                </defs>
+            </svg>
+        
+            <button id="gooey-button" class="botao3">
+                -------- 3 --------
+                <span class="bubbles">
+                    <span class="bubble"></span>
+                    <span class="bubble"></span>
+                    <span class="bubble"></span>
+                    <span class="bubble"></span>
+                    <span class="bubble"></span>
+                    <span class="bubble"></span>
+                    <span class="bubble"></span>
+                    <span class="bubble"></span>
+                    <span class="bubble"></span>
+                    <span class="bubble"></span>
+                </span>
+            </button>
+
+
+        </div>
+
+        <div id="sound" class="mt-5">
+
+            <link rel="preconnect" href="https://fonts.gstatic.com"> 
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+<button id="music"><span id="on-off">Sound:OFF</span></button>
+
+            <div id="tocar">
+                <audio preload loop src="./sagun - Trust Nobody Love, Nobody The Same (Feat. Shiloh Dynasty).mp3"></audio>
+            </div>
+
+        </div>
+
+
+
+
+    </div>
+</body>
+<script src="./index.js"></script>
+</html>
