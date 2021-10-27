@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./bootstrap.min.css">
     <link rel="stylesheet" href="./index.css">
-    <title>Windows</title>
+    <title>Shiloh Dynasty</title>
 </head>
 <style>
     .container1{
@@ -18,24 +18,98 @@
         flex-direction: column;
         
     }
+    body {display:flex; flex-direction:collumn}
 
     @media(min-width:600px){
         .botao2{
             margin:0 4rem;
         }
     }
+    @media(max-width:600px) {
+        .botao3{
+            margin-top: 5rem;
+        }
+        .botao1{
+            margin-right: 1rem;
+        }
+        #sound{
+            margin: 0 2rem;
+        }
+    }
 
+
+
+    #botoes, #sound{
+        transform: translateY(-150px);
+    }
+
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+    .navbar{
+        position: fixed;
+        top: 0;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .neonText {
+  color: #44d9e8;
+  text-shadow:
+      0 0 7px #44d9e8,
+      0 0 10px #44d9e8,
+      0 0 21px #44d9e8,
+      0 0 42px #44d9e8,
+      0 0 82px #44d9e8,
+      0 0 92px #44d9e8,
+      0 0 102px #44d9e8,
+      0 0 151px #44d9e8;
+      animation: flicker 5s infinite alternate;
+}
+
+
+@keyframes flicker {
+    
+    0%, 18%, 22%, 25%, 53%, 57%, 100% {
+  
+        text-shadow:
+        0 0 4px #44d9e8,
+        0 0 11px #44d9e8,
+        0 0 19px #44d9e8,
+        0 0 40px #44d9e8,
+        0 0 80px #44d9e8,
+        0 0 90px #44d9e8,
+        0 0 100px #44d9e8,
+        0 0 150px #44d9e8;
+    
+    }
+    
+    20%, 24%, 55% {        
+        text-shadow: none;
+    }    
+  }
 
 
 </style>
 <body>
-    <div class="container1  bg-dark">
 
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-center mt-1">
+        <h5 class="text-center neonText">Trust Nobody Love, Nobody The Same (Feat. Shiloh Dynasty)</h5>
+      </nav>
+
+
+
+
+    <div class="container1  bg-dark">
+        
         <div id="ibagens">
             <img src="./Imagem1.png" alt="">
         </div>
         
-        <div id="botoes">
+        <div id="botoes" class="text-center">
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
                 <defs>
                     <filter id="gooey">
