@@ -30,6 +30,7 @@ svg {
   filter: url("#gooey");
   position: relative;
   background-color: $prime;
+  z-index: 200;
 
   &:focus {
     outline: none;
